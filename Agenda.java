@@ -19,4 +19,15 @@ public class Agenda {
 		queue.remove(questToBeRemoved);
 		System.out.format("%s removed from to %s", questToBeRemoved.toString(), this.name);
 	}
+	public synchronized void acquire(Knight currentKnight) {
+		while (queue.isEmpty()) {
+			try {
+				wait();
+			}
+			catch (InterruptedException e) {
+			}
+		}
+		currentKnight.addQuest(queue.get(0));
+		queue.remove(0);
+	}
 }

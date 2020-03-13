@@ -25,7 +25,7 @@ class Params {
     static final int MEAN_KING_WAITING_TIME = 800;
 
     // duration between new quests being added
-    static final int QUEST_ADDITION_TIME = 20;
+    static final int QUEST_ADDITION_TIME = 2000;
     
     // duration between completed quests being removed
     static final int QUEST_REMOVAL_TIME = 20;

@@ -7,7 +7,7 @@ public class Knight extends Thread{
 	
 	private Agenda agendaComplete;
 	
-	private Quest currentQuest;
+	private volatile Quest currentQuest;
 	
 	public volatile boolean isOutside;
 	
@@ -71,7 +71,7 @@ public class Knight extends Thread{
 	                
 	                this.greatHall.sit(this);
                 	if(currentQuest != null) {
-                		this.agendaComplete.releases(this, this.greatHall);;
+                		this.agendaComplete.releases(this, this.greatHall);
                 		
                 	}
                 	this.agendaNew.acquire(this, this.greatHall);

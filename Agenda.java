@@ -57,7 +57,7 @@ public class Agenda {
 		notifyAll();
 	}
 	public synchronized void releases(Knight knight, Hall greatHall) {
-		while (!knight.isKnightOutside() || knight.getQuest() == null || !knight.getQuest().completed || greatHall.meetingInProgress) {
+		while (knight.isKnightOutside() || knight.getQuest() == null || !knight.getQuest().completed || !greatHall.meetingInProgress) {
 			try {
 				wait();
 			}

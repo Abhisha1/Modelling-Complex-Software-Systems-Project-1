@@ -1,5 +1,6 @@
 
 public class KingArthur extends Thread{
+	// Checks whether King Arthur is inside the GreatHall or not
 	public volatile boolean isOutside = true;
 	
 	private Hall greatHall;
@@ -17,6 +18,7 @@ public class KingArthur extends Thread{
 						 this.greatHall.commenceMeeting(this);
 						 this.greatHall.endMeeting(this);
 						 this.greatHall.KingExit(this);
+						 // King waits before re-entering the Great hall
 						 sleep(Params.getKingWaitingTime());
 					 }
 				 }

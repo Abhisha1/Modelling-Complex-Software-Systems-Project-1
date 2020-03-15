@@ -1,6 +1,7 @@
 
 public class Hall {
-private String name;
+	//name of the hall
+	private String name;
 	
 	private Agenda agendaNew;
 	
@@ -23,7 +24,7 @@ private String name;
         this.nKnightsPresent = 0;
         this.nKnightsSeated = 0;
 	}
-
+	// Knight enters the greathall with King Arthur isn't present
     public synchronized void knightEnter(Knight knight){
         while (kingArthurPresent){
             try{
@@ -35,6 +36,7 @@ private String name;
         nKnightsPresent++;
         notifyAll();
     }
+    //King Arthur enters the greathall
     public synchronized void kingEnter(KingArthur king){
         while (kingArthurPresent){
             try{
@@ -46,6 +48,7 @@ private String name;
         king.isOutside = false;
         notifyAll();
     }
+ // Knight exits the greathall with King Arthur isn't present
     public synchronized void knightExit(Knight knight){
         while (kingArthurPresent){
             try{
@@ -57,6 +60,7 @@ private String name;
         this.nKnightsPresent--;
         notifyAll();
     }
+  //King Arthur exits the greathall once the meeting is complete
     public synchronized void KingExit(KingArthur king){
         while (meetingInProgress){
             try{
@@ -68,8 +72,9 @@ private String name;
         king.isOutside = true;
         notifyAll();
     }
+  //Knight sits in the greathall when the King is present
     public synchronized void sit(Knight knight) {
-    	while(!kingArthurPresent || knight.isKnightSeated()) {
+    	while(!kingArthurPresent || knight.isSeated) {
     		try {
     			wait();
     		}catch (InterruptedException e){}
@@ -79,20 +84,20 @@ private String name;
     	nKnightsSeated++;
         notifyAll();
     }
-    
+  //King starts meeting when all present knights are seated
     public synchronized void commenceMeeting(KingArthur king) {
     	while(king.isOutside || (this.nKnightsPresent != this.nKnightsSeated)) {
     		try {
     			wait();
     		}catch (InterruptedException e){}
     	}
-    	System.out.format("# knights pres %d, # seat %d \n", this.nKnightsPresent, this.nKnightsSeated);
     	System.out.format("Meeting begins\n");
     	this.meetingInProgress = true;
     	notifyAll();
     }
+  //Knight stands during meeting when they have acquired a new quest
     public synchronized void stand(Knight knight) {
-    	while(!kingArthurPresent || !knight.isKnightSeated() || !knight.hasQuest()) {
+    	while(!kingArthurPresent || !knight.isSeated || knight.getQuest() == null) {
     		try {
     			wait();
     		}catch (InterruptedException e){}
@@ -102,6 +107,7 @@ private String name;
     	nKnightsSeated--;
         notifyAll();
     }
+  //King ends a meeting when all knights are standing
     public synchronized void endMeeting(KingArthur king) {
     	while(this.nKnightsPresent == 0 || this.nKnightsSeated != 0 || king.isOutside) {
     		try {

@@ -1,12 +1,12 @@
 
 public class Knight extends Thread{
-	
+	// An id to identify the knight
 	private int id;
-	
+	//List of quests that are yet to be acquired
 	private Agenda agendaNew;
-	
+	//List fo quests that have been completed and released by knights
 	private Agenda agendaComplete;
-	
+	//The current quest the knight has
 	private volatile Quest currentQuest;
 	
 	public volatile boolean isOutside;
@@ -23,23 +23,6 @@ public class Knight extends Thread{
 		this.isSeated = false;
 		this.greatHall = greatHall;
 		this.currentQuest = null;
-	}
-	
-	
-	
-	public boolean isKnightOutside() {
-		return this.isOutside;
-	}
-	
-	public boolean isKnightSeated() {
-		return this.isSeated;
-	}
-	
-	public boolean hasQuest() {
-		if (this.currentQuest != null) {
-			return true;
-		}
-		return false;
 	}
 	
 	public Quest getQuest() {
@@ -66,7 +49,7 @@ public class Knight extends Thread{
             try {
             	while(true) {
 	            	this.greatHall.knightEnter(this);
-	            	
+	            	//Knight mingles with other knights
 	                sleep(Params.getMinglingTime());
 	                
 	                this.greatHall.sit(this);
@@ -76,9 +59,11 @@ public class Knight extends Thread{
                 	}
                 	this.agendaNew.acquire(this, this.greatHall);
                 	this.greatHall.stand(this);
+                	//Knight mingles again with other knights before leaving
                 	sleep(Params.getMinglingTime());
                 	this.greatHall.knightExit(this);
 	                this.agendaNew.setsOff(this);
+	                //Knight is completing the quest
                 	sleep(Params.getQuestingTime());
                 	this.agendaComplete.completes(this);
             	}    

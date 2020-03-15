@@ -1,12 +1,16 @@
 import java.util.ArrayList;
 
 public class Agenda {
+	// Name of the agenda
 	private String name;
+	
+	// A queue of quests maintaining completed and new quests
 	private ArrayList<Quest> queue;
 	public Agenda(String newAgendaName) {
 		this.name = newAgendaName;
 		this.queue = new ArrayList<Quest>();
 	}
+	// Adds a new quest to the queue
 	public synchronized void addNew(Quest newQuest) {
 		while (queue.contains(newQuest) == false) {
 			queue.add(newQuest);
@@ -15,6 +19,7 @@ public class Agenda {
 		}
 		
 	}
+	// Removes a quest from the queue
 	public synchronized void removeComplete() {
 		while (!queue.isEmpty()) {
 			Quest removedQuest = queue.remove(0);
@@ -22,9 +27,9 @@ public class Agenda {
 			notifyAll();
 		}
 	}
-	
+	// Knight acquires a new quest during a meeting, while seated and there is a new quest available
 	public synchronized void acquire(Knight knight, Hall greatHall) {
-		while (queue.isEmpty() || !knight.isKnightSeated() || !greatHall.meetingInProgress) {
+		while (queue.isEmpty() || !knight.isSeated || !greatHall.meetingInProgress) {
 			try {
 				wait();
 			}
@@ -35,8 +40,9 @@ public class Agenda {
 		System.out.format("%s acquires %s\n", knight.toString(), newQuest.toString());
 		notifyAll();
 	}
+	// Knight sets off to complete a quest after exited from the GreatHall
 	public synchronized void setsOff(Knight knight) {
-		while (!knight.isKnightOutside() || knight.getQuest() == null || knight.getQuest().completed) {
+		while (!knight.isOutside || knight.getQuest() == null || knight.getQuest().completed) {
 			try {
 				wait();
 			}
@@ -45,8 +51,9 @@ public class Agenda {
 		System.out.format("%s sets off to complete %s!\n", knight.toString(), knight.getQuest().toString());
 		notifyAll();
 	}
+	// Knight completes a quest
 	public synchronized void completes(Knight knight) {
-		while (!knight.isKnightOutside() || knight.getQuest() == null || knight.getQuest().completed) {
+		while (!knight.isOutside || knight.getQuest() == null || knight.getQuest().completed) {
 			try {
 				wait();
 			}
@@ -56,8 +63,9 @@ public class Agenda {
 		knight.getQuest().completed = true;
 		notifyAll();
 	}
+	// Knight reviews and releases a completed quest during a meeting
 	public synchronized void releases(Knight knight, Hall greatHall) {
-		while (knight.isKnightOutside() || knight.getQuest() == null || !knight.getQuest().completed || !greatHall.meetingInProgress) {
+		while (knight.isOutside || knight.getQuest() == null || !knight.getQuest().completed || !greatHall.meetingInProgress) {
 			try {
 				wait();
 			}

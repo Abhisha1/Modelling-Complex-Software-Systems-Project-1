@@ -42,24 +42,26 @@ public class Agenda {
 	}
 	// Knight sets off to complete a quest after exited from the GreatHall
 	public synchronized void setsOff(Knight knight) {
-		while (!knight.isOutside || knight.getQuest() == null || knight.getQuest().completed) {
+		while (!knight.isOutside || knight.getQuest() == null || knight.getQuest().completed || knight.questing) {
 			try {
 				wait();
 			}
 			catch (InterruptedException e) {}
 		}
 		System.out.format("%s sets off to complete %s!\n", knight.toString(), knight.getQuest().toString());
+		knight.questing = true;
 		notifyAll();
 	}
 	// Knight completes a quest
 	public synchronized void completes(Knight knight) {
-		while (!knight.isOutside || knight.getQuest() == null || knight.getQuest().completed) {
+		while (!knight.isOutside || knight.getQuest() == null || knight.getQuest().completed || !knight.questing) {
 			try {
 				wait();
 			}
 			catch (InterruptedException e) {}
 		}
 		System.out.format("%s completes %s!\n", knight.toString(), knight.getQuest().toString());
+		knight.questing = false;
 		knight.getQuest().completed = true;
 		notifyAll();
 	}

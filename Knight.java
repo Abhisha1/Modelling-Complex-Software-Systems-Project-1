@@ -4,7 +4,7 @@ public class Knight extends Thread{
 	private int id;
 	//List of quests that are yet to be acquired
 	private Agenda agendaNew;
-	//List fo quests that have been completed and released by knights
+	//List of quests that have been completed and released by knights
 	private Agenda agendaComplete;
 	//The current quest the knight has
 	private volatile Quest currentQuest;
@@ -12,6 +12,8 @@ public class Knight extends Thread{
 	public volatile boolean isOutside;
 	
 	public volatile boolean isSeated;
+	
+	public volatile boolean questing;
 
 	private Hall greatHall;
 	
@@ -22,6 +24,7 @@ public class Knight extends Thread{
 		this.isOutside = true;
 		this.isSeated = false;
 		this.greatHall = greatHall;
+		this.questing = false;
 		this.currentQuest = null;
 	}
 	
@@ -47,7 +50,6 @@ public class Knight extends Thread{
     public void run() {
         while (!isInterrupted()) {
             try {
-            	while(true) {
 	            	this.greatHall.knightEnter(this);
 	            	//Knight mingles with other knights
 	                sleep(Params.getMinglingTime());
@@ -63,10 +65,8 @@ public class Knight extends Thread{
                 	sleep(Params.getMinglingTime());
                 	this.greatHall.knightExit(this);
 	                this.agendaNew.setsOff(this);
-	                //Knight is completing the quest
                 	sleep(Params.getQuestingTime());
                 	this.agendaComplete.completes(this);
-            	}    
                 
             }
             catch (InterruptedException e) {

@@ -109,7 +109,7 @@ public class Hall {
     }
   //King ends a meeting when all knights are standing
     public synchronized void endMeeting(KingArthur king) {
-    	while(this.nKnightsPresent == 0 || this.nKnightsSeated != 0 || king.isOutside) {
+    	while(this.nKnightsSeated != 0 || king.isOutside) {
     		try {
     			wait();
     		}catch (InterruptedException e){}

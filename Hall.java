@@ -42,7 +42,7 @@ public class Hall {
                 wait();
             }catch (InterruptedException e){}
         }
-        System.out.format("%s enters %s\n", knight.toString(), this.name);
+        System.out.format("%s enters %s.\n", knight.toString(), this.name);
         knight.isOutside = false;
         nKnightsPresent++;
         notifyAll();
@@ -54,7 +54,7 @@ public class Hall {
                 wait();
             }catch (InterruptedException e){}
         }
-        System.out.format("King Arthur enters %s\n", this.name);
+        System.out.format("King Arthur enters %s.\n", this.name);
         this.kingArthurPresent = true;
         notifyAll();
     }
@@ -65,7 +65,7 @@ public class Hall {
                 wait();
             }catch (InterruptedException e){}
         }
-        System.out.format("%s exits %s\n", knight.toString(), this.name);
+        System.out.format("%s exits from %s.\n", knight.toString(), this.name);
         knight.isOutside = true;
         this.nKnightsPresent--;
         notifyAll();
@@ -77,7 +77,7 @@ public class Hall {
                 wait();
             }catch (InterruptedException e){}
         }
-        System.out.format("King Arthur  exits %s\n", this.name);
+        System.out.format("King Arthur exits from %s.\n", this.name);
         this.kingArthurPresent = false;
         notifyAll();
     }
@@ -100,7 +100,7 @@ public class Hall {
     			wait();
     		}catch (InterruptedException e){}
     	}
-    	System.out.format("Meeting begins\n");
+    	System.out.format("Meeting begins!\n");
     	this.meetingInProgress = true;
     	notifyAll();
     }
@@ -111,7 +111,7 @@ public class Hall {
     			wait();
     		}catch (InterruptedException e){}
     	}
-    	System.out.format("%s stands at the Round Table.\n", knight.toString());
+    	System.out.format("%s stands from the Round Table.\n", knight.toString());
     	knight.isSeated = false;
     	nKnightsSeated--;
         notifyAll();

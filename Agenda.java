@@ -24,7 +24,7 @@ public class Agenda {
 	public synchronized void addNew(Quest newQuest) {
 		while (queue.contains(newQuest) == false) {
 			queue.add(newQuest);
-			System.out.format("%s added to %s\n", newQuest.toString(), this.name);
+			System.out.format("%s added to %s.\n", newQuest.toString(), this.name);
 			notifyAll();
 		}
 		
@@ -33,7 +33,7 @@ public class Agenda {
 	public synchronized void removeComplete() {
 		while (!queue.isEmpty()) {
 			Quest removedQuest = queue.remove(0);
-			System.out.format("%s removed from to %s\n", removedQuest.toString(), this.name);
+			System.out.format("%s removed from %s.\n", removedQuest.toString(), this.name);
 			notifyAll();
 		}
 	}
@@ -47,7 +47,7 @@ public class Agenda {
 		}
 		Quest newQuest = queue.remove(0);
 		knight.addQuest(newQuest);
-		System.out.format("%s acquires %s\n", knight.toString(), newQuest.toString());
+		System.out.format("%s acquires %s.\n", knight.toString(), newQuest.toString());
 		notifyAll();
 	}
 	// Knight sets off to complete a quest after exited from the GreatHall

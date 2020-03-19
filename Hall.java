@@ -1,4 +1,11 @@
-
+/***
+ * A monitor that controls all the activities related to a hall, including entering/exiting, sitting/standing,
+ * and commencing and concluding meetings with the relevant knights and/or King Arthur.
+ * 
+ * @author Abhisha Nirmalathas
+ * Student Number: 913405
+ *
+ */
 public class Hall {
 	//name of the hall
 	private String name;
@@ -7,12 +14,16 @@ public class Hall {
 	
 	private Agenda agendaComplete;
 
+	// checks if there is currently a meeting occuring
     public volatile boolean meetingInProgress;
 
+    // checks if King Arthur is in the hall
     private volatile boolean kingArthurPresent;
     
+    // number of knights in Hall
     private volatile int nKnightsPresent;
     
+    // number of knights seated in Hall
     private volatile int nKnightsSeated;
 	
 	public Hall(String name, Agenda agendaNew, Agenda agendaComplete) {
@@ -45,7 +56,6 @@ public class Hall {
         }
         System.out.format("King Arthur enters %s\n", this.name);
         this.kingArthurPresent = true;
-        king.isOutside = false;
         notifyAll();
     }
  // Knight exits the greathall with King Arthur isn't present
@@ -69,7 +79,6 @@ public class Hall {
         }
         System.out.format("King Arthur  exits %s\n", this.name);
         this.kingArthurPresent = false;
-        king.isOutside = true;
         notifyAll();
     }
   //Knight sits in the greathall when the King is present
@@ -86,7 +95,7 @@ public class Hall {
     }
   //King starts meeting when all present knights are seated
     public synchronized void commenceMeeting(KingArthur king) {
-    	while(king.isOutside || (this.nKnightsPresent != this.nKnightsSeated)) {
+    	while(!this.kingArthurPresent|| (this.nKnightsPresent != this.nKnightsSeated)) {
     		try {
     			wait();
     		}catch (InterruptedException e){}
@@ -109,7 +118,7 @@ public class Hall {
     }
   //King ends a meeting when all knights are standing
     public synchronized void endMeeting(KingArthur king) {
-    	while(this.nKnightsSeated != 0 || king.isOutside) {
+    	while(this.nKnightsSeated != 0 || !this.kingArthurPresent) {
     		try {
     			wait();
     		}catch (InterruptedException e){}

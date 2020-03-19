@@ -1,3 +1,13 @@
+/***
+ * The Agenda is a monitor that handles how the quests are managed, specifically the maintenance,
+ * acquisition, releasing, and completion of quests along with being able to modify quests into
+ * the appropriate agendas
+ * 
+ * 
+ * @author Abhisha Nirmalathas
+ * Student Number: 913405
+ *
+ */
 import java.util.ArrayList;
 
 public class Agenda {

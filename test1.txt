@@ -1,0 +1,649 @@
+Knight 1 enters Great Hall
+Quest 1 added to New Agenda
+King Arthur enters Great Hall
+Quest 2 added to New Agenda
+Quest 3 added to New Agenda
+Quest 4 added to New Agenda
+Quest 5 added to New Agenda
+Quest 6 added to New Agenda
+Quest 7 added to New Agenda
+Quest 8 added to New Agenda
+Quest 9 added to New Agenda
+Quest 10 added to New Agenda
+Quest 11 added to New Agenda
+Knight 1 sits at the Round Table.
+Meeting begins
+Knight 1 acquires Quest 1
+Knight 1 stands at the Round Table.
+Meeting ends!
+King Arthur  exits Great Hall
+Knight 3 enters Great Hall
+Knight 4 enters Great Hall
+Knight 2 enters Great Hall
+Quest 12 added to New Agenda
+Quest 13 added to New Agenda
+Quest 14 added to New Agenda
+Quest 15 added to New Agenda
+Quest 16 added to New Agenda
+Quest 17 added to New Agenda
+Quest 18 added to New Agenda
+Quest 19 added to New Agenda
+Knight 1 exits Great Hall
+Knight 1 sets off to complete Quest 1!
+Quest 20 added to New Agenda
+Quest 21 added to New Agenda
+Quest 22 added to New Agenda
+Quest 23 added to New Agenda
+Quest 24 added to New Agenda
+Quest 25 added to New Agenda
+Quest 26 added to New Agenda
+Quest 27 added to New Agenda
+Quest 28 added to New Agenda
+Quest 29 added to New Agenda
+Quest 30 added to New Agenda
+Quest 31 added to New Agenda
+Quest 32 added to New Agenda
+Quest 33 added to New Agenda
+Quest 34 added to New Agenda
+Quest 35 added to New Agenda
+Quest 36 added to New Agenda
+Quest 37 added to New Agenda
+Quest 38 added to New Agenda
+Quest 39 added to New Agenda
+Quest 40 added to New Agenda
+Quest 41 added to New Agenda
+Quest 42 added to New Agenda
+Quest 43 added to New Agenda
+Quest 44 added to New Agenda
+Quest 45 added to New Agenda
+Quest 46 added to New Agenda
+Quest 47 added to New Agenda
+Quest 48 added to New Agenda
+Quest 49 added to New Agenda
+King Arthur enters Great Hall
+Knight 4 sits at the Round Table.
+Knight 2 sits at the Round Table.
+Knight 3 sits at the Round Table.
+Meeting begins
+Quest 50 added to New Agenda
+Knight 4 acquires Quest 2
+Knight 4 stands at the Round Table.
+Knight 3 acquires Quest 3
+Knight 3 stands at the Round Table.
+Knight 2 acquires Quest 4
+Knight 2 stands at the Round Table.
+Meeting ends!
+King Arthur  exits Great Hall
+Quest 51 added to New Agenda
+Quest 52 added to New Agenda
+Quest 53 added to New Agenda
+Quest 54 added to New Agenda
+Quest 55 added to New Agenda
+Quest 56 added to New Agenda
+Quest 57 added to New Agenda
+Quest 58 added to New Agenda
+Knight 3 exits Great Hall
+Knight 3 sets off to complete Quest 3!
+Quest 59 added to New Agenda
+Knight 4 exits Great Hall
+Knight 4 sets off to complete Quest 2!
+Quest 60 added to New Agenda
+Knight 2 exits Great Hall
+Knight 2 sets off to complete Quest 4!
+Quest 61 added to New Agenda
+Quest 62 added to New Agenda
+Quest 63 added to New Agenda
+Quest 64 added to New Agenda
+Quest 65 added to New Agenda
+Quest 66 added to New Agenda
+Quest 67 added to New Agenda
+Quest 68 added to New Agenda
+Quest 69 added to New Agenda
+Quest 70 added to New Agenda
+Quest 71 added to New Agenda
+Quest 72 added to New Agenda
+Quest 73 added to New Agenda
+Quest 74 added to New Agenda
+Quest 75 added to New Agenda
+Quest 76 added to New Agenda
+Quest 77 added to New Agenda
+Quest 78 added to New Agenda
+Quest 79 added to New Agenda
+Quest 80 added to New Agenda
+Quest 81 added to New Agenda
+Knight 1 completes Quest 1!
+Knight 1 enters Great Hall
+Quest 82 added to New Agenda
+Quest 83 added to New Agenda
+Quest 84 added to New Agenda
+Quest 85 added to New Agenda
+King Arthur enters Great Hall
+Quest 86 added to New Agenda
+Quest 87 added to New Agenda
+Quest 88 added to New Agenda
+Quest 89 added to New Agenda
+Quest 90 added to New Agenda
+Quest 91 added to New Agenda
+Quest 92 added to New Agenda
+Knight 1 sits at the Round Table.
+Meeting begins
+Knight 1 releases Quest 1.
+Knight 1 acquires Quest 5
+Knight 1 stands at the Round Table.
+Meeting ends!
+King Arthur  exits Great Hall
+Quest 1 removed from to Complete Agenda
+Quest 93 added to New Agenda
+Quest 94 added to New Agenda
+Quest 95 added to New Agenda
+Quest 96 added to New Agenda
+Quest 97 added to New Agenda
+Quest 98 added to New Agenda
+Quest 99 added to New Agenda
+Knight 1 exits Great Hall
+Knight 1 sets off to complete Quest 5!
+Quest 100 added to New Agenda
+Quest 101 added to New Agenda
+Quest 102 added to New Agenda
+Quest 103 added to New Agenda
+Quest 104 added to New Agenda
+Quest 105 added to New Agenda
+Quest 106 added to New Agenda
+Quest 107 added to New Agenda
+Quest 108 added to New Agenda
+Quest 109 added to New Agenda
+Quest 110 added to New Agenda
+Quest 111 added to New Agenda
+Quest 112 added to New Agenda
+Quest 113 added to New Agenda
+Quest 114 added to New Agenda
+Quest 115 added to New Agenda
+Quest 116 added to New Agenda
+Knight 2 completes Quest 4!
+Knight 2 enters Great Hall
+Knight 4 completes Quest 2!
+Knight 4 enters Great Hall
+Quest 117 added to New Agenda
+Quest 118 added to New Agenda
+Quest 119 added to New Agenda
+Quest 120 added to New Agenda
+King Arthur enters Great Hall
+Quest 121 added to New Agenda
+Quest 122 added to New Agenda
+Quest 123 added to New Agenda
+Knight 2 sits at the Round Table.
+Quest 124 added to New Agenda
+Quest 125 added to New Agenda
+Quest 126 added to New Agenda
+Knight 4 sits at the Round Table.
+Meeting begins
+Quest 127 added to New Agenda
+Quest 128 added to New Agenda
+Quest 129 added to New Agenda
+Quest 130 added to New Agenda
+Quest 131 added to New Agenda
+Quest 132 added to New Agenda
+Quest 133 added to New Agenda
+Knight 3 completes Quest 3!
+Knight 2 releases Quest 4.
+Knight 2 acquires Quest 6
+Knight 2 stands at the Round Table.
+Knight 4 releases Quest 2.
+Knight 4 acquires Quest 7
+Knight 4 stands at the Round Table.
+Meeting ends!
+King Arthur  exits Great Hall
+Knight 3 enters Great Hall
+Quest 4 removed from to Complete Agenda
+Quest 2 removed from to Complete Agenda
+Quest 134 added to New Agenda
+Quest 135 added to New Agenda
+Quest 136 added to New Agenda
+Quest 137 added to New Agenda
+Quest 138 added to New Agenda
+Knight 4 exits Great Hall
+Knight 4 sets off to complete Quest 7!
+Quest 139 added to New Agenda
+Quest 140 added to New Agenda
+Quest 141 added to New Agenda
+Knight 2 exits Great Hall
+Knight 2 sets off to complete Quest 6!
+Quest 142 added to New Agenda
+Quest 143 added to New Agenda
+Quest 144 added to New Agenda
+Quest 145 added to New Agenda
+Quest 146 added to New Agenda
+Quest 147 added to New Agenda
+Quest 148 added to New Agenda
+Quest 149 added to New Agenda
+Quest 150 added to New Agenda
+Quest 151 added to New Agenda
+Quest 152 added to New Agenda
+Quest 153 added to New Agenda
+Knight 1 completes Quest 5!
+Knight 1 enters Great Hall
+Quest 154 added to New Agenda
+Quest 155 added to New Agenda
+Quest 156 added to New Agenda
+Quest 157 added to New Agenda
+Quest 158 added to New Agenda
+Quest 159 added to New Agenda
+Quest 160 added to New Agenda
+Quest 161 added to New Agenda
+Quest 162 added to New Agenda
+Quest 163 added to New Agenda
+Quest 164 added to New Agenda
+Quest 165 added to New Agenda
+Quest 166 added to New Agenda
+Quest 167 added to New Agenda
+Quest 168 added to New Agenda
+Quest 169 added to New Agenda
+Quest 170 added to New Agenda
+King Arthur enters Great Hall
+Quest 171 added to New Agenda
+Knight 3 sits at the Round Table.
+Knight 1 sits at the Round Table.
+Meeting begins
+Quest 172 added to New Agenda
+Quest 173 added to New Agenda
+Quest 174 added to New Agenda
+Quest 175 added to New Agenda
+Quest 176 added to New Agenda
+Quest 177 added to New Agenda
+Quest 178 added to New Agenda
+Quest 179 added to New Agenda
+Quest 180 added to New Agenda
+Quest 181 added to New Agenda
+Quest 182 added to New Agenda
+Quest 183 added to New Agenda
+Quest 184 added to New Agenda
+Quest 185 added to New Agenda
+Quest 186 added to New Agenda
+Quest 187 added to New Agenda
+Quest 188 added to New Agenda
+Quest 189 added to New Agenda
+Quest 190 added to New Agenda
+Quest 191 added to New Agenda
+Quest 192 added to New Agenda
+Quest 193 added to New Agenda
+Quest 194 added to New Agenda
+Quest 195 added to New Agenda
+Quest 196 added to New Agenda
+Quest 197 added to New Agenda
+Quest 198 added to New Agenda
+Quest 199 added to New Agenda
+Quest 200 added to New Agenda
+Quest 201 added to New Agenda
+Knight 4 completes Quest 7!
+Knight 3 releases Quest 3.
+Knight 3 acquires Quest 8
+Knight 1 releases Quest 5.
+Knight 3 stands at the Round Table.
+Quest 3 removed from to Complete Agenda
+Knight 1 acquires Quest 9
+Knight 1 stands at the Round Table.
+Quest 5 removed from to Complete Agenda
+Meeting ends!
+King Arthur  exits Great Hall
+Knight 4 enters Great Hall
+Quest 202 added to New Agenda
+Quest 203 added to New Agenda
+Quest 204 added to New Agenda
+Quest 205 added to New Agenda
+Quest 206 added to New Agenda
+Quest 207 added to New Agenda
+Quest 208 added to New Agenda
+Quest 209 added to New Agenda
+Quest 210 added to New Agenda
+Knight 2 completes Quest 6!
+Knight 2 enters Great Hall
+Quest 211 added to New Agenda
+Knight 3 exits Great Hall
+Knight 3 sets off to complete Quest 8!
+Knight 1 exits Great Hall
+Quest 212 added to New Agenda
+Knight 1 sets off to complete Quest 9!
+Quest 213 added to New Agenda
+Quest 214 added to New Agenda
+Quest 215 added to New Agenda
+Quest 216 added to New Agenda
+Quest 217 added to New Agenda
+Quest 218 added to New Agenda
+Quest 219 added to New Agenda
+Quest 220 added to New Agenda
+Quest 221 added to New Agenda
+Quest 222 added to New Agenda
+Quest 223 added to New Agenda
+Quest 224 added to New Agenda
+Quest 225 added to New Agenda
+Quest 226 added to New Agenda
+Quest 227 added to New Agenda
+Quest 228 added to New Agenda
+Quest 229 added to New Agenda
+Quest 230 added to New Agenda
+Quest 231 added to New Agenda
+Quest 232 added to New Agenda
+Quest 233 added to New Agenda
+Quest 234 added to New Agenda
+Quest 235 added to New Agenda
+Quest 236 added to New Agenda
+Quest 237 added to New Agenda
+Quest 238 added to New Agenda
+Quest 239 added to New Agenda
+Quest 240 added to New Agenda
+Quest 241 added to New Agenda
+Quest 242 added to New Agenda
+Quest 243 added to New Agenda
+Quest 244 added to New Agenda
+Quest 245 added to New Agenda
+Quest 246 added to New Agenda
+Quest 247 added to New Agenda
+Quest 248 added to New Agenda
+Quest 249 added to New Agenda
+King Arthur enters Great Hall
+Knight 4 sits at the Round Table.
+Knight 2 sits at the Round Table.
+Meeting begins
+Quest 250 added to New Agenda
+Quest 251 added to New Agenda
+Quest 252 added to New Agenda
+Quest 253 added to New Agenda
+Quest 254 added to New Agenda
+Quest 255 added to New Agenda
+Quest 256 added to New Agenda
+Quest 257 added to New Agenda
+Quest 258 added to New Agenda
+Quest 259 added to New Agenda
+Knight 3 completes Quest 8!
+Knight 4 releases Quest 7.
+Knight 4 acquires Quest 10
+Knight 2 releases Quest 6.
+Knight 4 stands at the Round Table.
+Knight 2 acquires Quest 11
+Knight 2 stands at the Round Table.
+Meeting ends!
+King Arthur  exits Great Hall
+Knight 3 enters Great Hall
+Quest 7 removed from to Complete Agenda
+Quest 6 removed from to Complete Agenda
+Quest 260 added to New Agenda
+Quest 261 added to New Agenda
+Quest 262 added to New Agenda
+Quest 263 added to New Agenda
+Quest 264 added to New Agenda
+Quest 265 added to New Agenda
+Knight 4 exits Great Hall
+Knight 4 sets off to complete Quest 10!
+Quest 266 added to New Agenda
+Quest 267 added to New Agenda
+Quest 268 added to New Agenda
+Quest 269 added to New Agenda
+Knight 2 exits Great Hall
+Knight 2 sets off to complete Quest 11!
+Quest 270 added to New Agenda
+Quest 271 added to New Agenda
+Quest 272 added to New Agenda
+Quest 273 added to New Agenda
+Quest 274 added to New Agenda
+Quest 275 added to New Agenda
+Quest 276 added to New Agenda
+Quest 277 added to New Agenda
+Quest 278 added to New Agenda
+Quest 279 added to New Agenda
+Quest 280 added to New Agenda
+Quest 281 added to New Agenda
+Quest 282 added to New Agenda
+Knight 1 completes Quest 9!
+Knight 1 enters Great Hall
+Quest 283 added to New Agenda
+Quest 284 added to New Agenda
+Quest 285 added to New Agenda
+King Arthur enters Great Hall
+Knight 3 sits at the Round Table.
+Quest 286 added to New Agenda
+Quest 287 added to New Agenda
+Quest 288 added to New Agenda
+Quest 289 added to New Agenda
+Quest 290 added to New Agenda
+Knight 1 sits at the Round Table.
+Meeting begins
+Quest 291 added to New Agenda
+Quest 292 added to New Agenda
+Quest 293 added to New Agenda
+Quest 294 added to New Agenda
+Quest 295 added to New Agenda
+Quest 296 added to New Agenda
+Quest 297 added to New Agenda
+Quest 298 added to New Agenda
+Quest 299 added to New Agenda
+Quest 300 added to New Agenda
+Quest 301 added to New Agenda
+Quest 302 added to New Agenda
+Quest 303 added to New Agenda
+Quest 304 added to New Agenda
+Quest 305 added to New Agenda
+Quest 306 added to New Agenda
+Quest 307 added to New Agenda
+Quest 308 added to New Agenda
+Quest 309 added to New Agenda
+Quest 310 added to New Agenda
+Quest 311 added to New Agenda
+Quest 312 added to New Agenda
+Quest 313 added to New Agenda
+Quest 314 added to New Agenda
+Quest 315 added to New Agenda
+Quest 316 added to New Agenda
+Quest 317 added to New Agenda
+Quest 318 added to New Agenda
+Quest 319 added to New Agenda
+Quest 320 added to New Agenda
+Knight 2 completes Quest 11!
+Knight 3 releases Quest 8.
+Knight 3 acquires Quest 12
+Knight 1 releases Quest 9.
+Knight 3 stands at the Round Table.
+Knight 1 acquires Quest 13
+Quest 8 removed from to Complete Agenda
+Knight 1 stands at the Round Table.
+Quest 9 removed from to Complete Agenda
+Meeting ends!
+King Arthur  exits Great Hall
+Knight 2 enters Great Hall
+Quest 321 added to New Agenda
+Quest 322 added to New Agenda
+Quest 323 added to New Agenda
+Quest 324 added to New Agenda
+Quest 325 added to New Agenda
+Quest 326 added to New Agenda
+Knight 4 completes Quest 10!
+Knight 4 enters Great Hall
+Quest 327 added to New Agenda
+Knight 3 exits Great Hall
+Knight 3 sets off to complete Quest 12!
+Quest 328 added to New Agenda
+Quest 329 added to New Agenda
+Quest 330 added to New Agenda
+Knight 1 exits Great Hall
+Knight 1 sets off to complete Quest 13!
+Quest 331 added to New Agenda
+Quest 332 added to New Agenda
+Quest 333 added to New Agenda
+Quest 334 added to New Agenda
+Quest 335 added to New Agenda
+Quest 336 added to New Agenda
+Quest 337 added to New Agenda
+Quest 338 added to New Agenda
+Quest 339 added to New Agenda
+Quest 340 added to New Agenda
+Quest 341 added to New Agenda
+Quest 342 added to New Agenda
+Quest 343 added to New Agenda
+Quest 344 added to New Agenda
+Quest 345 added to New Agenda
+Quest 346 added to New Agenda
+Quest 347 added to New Agenda
+Quest 348 added to New Agenda
+Quest 349 added to New Agenda
+Quest 350 added to New Agenda
+Quest 351 added to New Agenda
+Quest 352 added to New Agenda
+Quest 353 added to New Agenda
+Quest 354 added to New Agenda
+Quest 355 added to New Agenda
+Quest 356 added to New Agenda
+Quest 357 added to New Agenda
+King Arthur enters Great Hall
+Knight 2 sits at the Round Table.
+Knight 4 sits at the Round Table.
+Meeting begins
+Quest 358 added to New Agenda
+Quest 359 added to New Agenda
+Quest 360 added to New Agenda
+Quest 361 added to New Agenda
+Quest 362 added to New Agenda
+Quest 363 added to New Agenda
+Quest 364 added to New Agenda
+Quest 365 added to New Agenda
+Quest 366 added to New Agenda
+Quest 367 added to New Agenda
+Quest 368 added to New Agenda
+Quest 369 added to New Agenda
+Quest 370 added to New Agenda
+Quest 371 added to New Agenda
+Knight 3 completes Quest 12!
+Knight 2 releases Quest 11.
+Knight 2 acquires Quest 14
+Knight 4 releases Quest 10.
+Knight 2 stands at the Round Table.
+Knight 4 acquires Quest 15
+Knight 4 stands at the Round Table.
+Meeting ends!
+King Arthur  exits Great Hall
+Knight 3 enters Great Hall
+Quest 11 removed from to Complete Agenda
+Quest 10 removed from to Complete Agenda
+Quest 372 added to New Agenda
+Quest 373 added to New Agenda
+Quest 374 added to New Agenda
+Quest 375 added to New Agenda
+Quest 376 added to New Agenda
+Quest 377 added to New Agenda
+Quest 378 added to New Agenda
+Quest 379 added to New Agenda
+Quest 380 added to New Agenda
+Quest 381 added to New Agenda
+Knight 1 completes Quest 13!
+Knight 1 enters Great Hall
+Knight 2 exits Great Hall
+Knight 2 sets off to complete Quest 14!
+Quest 382 added to New Agenda
+Quest 383 added to New Agenda
+Quest 384 added to New Agenda
+Knight 4 exits Great Hall
+Knight 4 sets off to complete Quest 15!
+Quest 385 added to New Agenda
+Quest 386 added to New Agenda
+Quest 387 added to New Agenda
+Quest 388 added to New Agenda
+Quest 389 added to New Agenda
+Quest 390 added to New Agenda
+Quest 391 added to New Agenda
+Quest 392 added to New Agenda
+Quest 393 added to New Agenda
+Quest 394 added to New Agenda
+Quest 395 added to New Agenda
+Quest 396 added to New Agenda
+Quest 397 added to New Agenda
+Quest 398 added to New Agenda
+Quest 399 added to New Agenda
+Quest 400 added to New Agenda
+Quest 401 added to New Agenda
+Quest 402 added to New Agenda
+Quest 403 added to New Agenda
+Quest 404 added to New Agenda
+King Arthur enters Great Hall
+Knight 3 sits at the Round Table.
+Knight 1 sits at the Round Table.
+Meeting begins
+Quest 405 added to New Agenda
+Quest 406 added to New Agenda
+Quest 407 added to New Agenda
+Quest 408 added to New Agenda
+Quest 409 added to New Agenda
+Quest 410 added to New Agenda
+Quest 411 added to New Agenda
+Quest 412 added to New Agenda
+Quest 413 added to New Agenda
+Quest 414 added to New Agenda
+Quest 415 added to New Agenda
+Quest 416 added to New Agenda
+Quest 417 added to New Agenda
+Quest 418 added to New Agenda
+Quest 419 added to New Agenda
+Quest 420 added to New Agenda
+Quest 421 added to New Agenda
+Quest 422 added to New Agenda
+Quest 423 added to New Agenda
+Knight 4 completes Quest 15!
+Knight 3 releases Quest 12.
+Knight 3 acquires Quest 16
+Knight 3 stands at the Round Table.
+Knight 1 releases Quest 13.
+Knight 1 acquires Quest 17
+Knight 1 stands at the Round Table.
+Meeting ends!
+King Arthur  exits Great Hall
+Knight 4 enters Great Hall
+Quest 12 removed from to Complete Agenda
+Quest 13 removed from to Complete Agenda
+Quest 424 added to New Agenda
+Quest 425 added to New Agenda
+Quest 426 added to New Agenda
+Quest 427 added to New Agenda
+Quest 428 added to New Agenda
+Quest 429 added to New Agenda
+Knight 2 completes Quest 14!
+Knight 2 enters Great Hall
+Knight 1 exits Great Hall
+Knight 1 sets off to complete Quest 17!
+Quest 430 added to New Agenda
+Quest 431 added to New Agenda
+Quest 432 added to New Agenda
+Knight 3 exits Great Hall
+Knight 3 sets off to complete Quest 16!
+Quest 433 added to New Agenda
+Quest 434 added to New Agenda
+Quest 435 added to New Agenda
+Quest 436 added to New Agenda
+Quest 437 added to New Agenda
+Quest 438 added to New Agenda
+Quest 439 added to New Agenda
+Quest 440 added to New Agenda
+Quest 441 added to New Agenda
+Quest 442 added to New Agenda
+Quest 443 added to New Agenda
+Quest 444 added to New Agenda
+Quest 445 added to New Agenda
+Quest 446 added to New Agenda
+Quest 447 added to New Agenda
+Quest 448 added to New Agenda
+Quest 449 added to New Agenda
+Quest 450 added to New Agenda
+Quest 451 added to New Agenda
+Quest 452 added to New Agenda
+Quest 453 added to New Agenda
+Quest 454 added to New Agenda
+Quest 455 added to New Agenda
+Quest 456 added to New Agenda
+Quest 457 added to New Agenda
+Quest 458 added to New Agenda
+Quest 459 added to New Agenda
+Quest 460 added to New Agenda
+Quest 461 added to New Agenda
+King Arthur enters Great Hall
+Knight 4 sits at the Round Table.
+Knight 2 sits at the Round Table.
+Meeting begins
+Quest 462 added to New Agenda
+Quest 463 added to New Agenda
+Quest 464 added to New Agenda

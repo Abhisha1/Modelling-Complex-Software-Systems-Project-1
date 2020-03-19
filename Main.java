@@ -1,4 +1,6 @@
 /**
+ * Abhisha Nirmalathas
+ * Student Number: 913405
  * The top-level component of the questing knights simulator.
  *
  * It is responsible for:
@@ -6,6 +8,7 @@
  *  - starting all of the processes;
  *
  * @author ngeard@unimelb.edu.au
+ * 
  *
  */
 

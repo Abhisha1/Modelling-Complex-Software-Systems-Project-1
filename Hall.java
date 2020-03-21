@@ -1,6 +1,7 @@
 /***
- * A monitor that controls all the activities related to a hall, including entering/exiting, sitting/standing,
- * and commencing and concluding meetings with the relevant knights and/or King Arthur.
+ * A monitor that controls all the activities related to a hall, including
+ * entering/exiting, sitting/standing, and commencing and concluding meetings
+ * with the relevant knights and/or King Arthur.
  * 
  * @author Abhisha Nirmalathas
  * Student Number: 913405
@@ -15,7 +16,7 @@ public class Hall {
 	private Agenda agendaComplete;
 
 	// checks if there is currently a meeting occuring
-    public volatile boolean meetingInProgress;
+    public static volatile boolean meetingInProgress;
 
     // checks if King Arthur is in the hall
     private volatile boolean kingArthurPresent;
@@ -30,7 +31,7 @@ public class Hall {
 		this.name = name;
 		this.agendaNew = agendaNew;
 		this.agendaComplete = agendaComplete;
-        this.meetingInProgress = false;
+        meetingInProgress = false;
         this.kingArthurPresent = false;
         this.nKnightsPresent = 0;
         this.nKnightsSeated = 0;
@@ -44,7 +45,7 @@ public class Hall {
         }
         System.out.format("%s enters %s.\n", knight.toString(), this.name);
         knight.isOutside = false;
-        nKnightsPresent++;
+        this.nKnightsPresent++;
         notifyAll();
     }
     //King Arthur enters the greathall
@@ -90,30 +91,37 @@ public class Hall {
     	}
     	System.out.format("%s sits at the Round Table.\n", knight.toString());
     	knight.isSeated = true;
-    	nKnightsSeated++;
+    	this.nKnightsSeated++;
         notifyAll();
     }
   //King starts meeting when all present knights are seated
     public synchronized void commenceMeeting(KingArthur king) {
-    	while(!this.kingArthurPresent|| (this.nKnightsPresent != this.nKnightsSeated)) {
+    	while(!this.kingArthurPresent|| 
+    			(this.nKnightsPresent != this.nKnightsSeated)) {
     		try {
     			wait();
     		}catch (InterruptedException e){}
     	}
     	System.out.format("Meeting begins!\n");
-    	this.meetingInProgress = true;
+    	meetingInProgress = true;
+    	// Ensure that completed quests can be released
+    	synchronized(agendaComplete) {
+    		agendaComplete.notifyAll();
+    	}
     	notifyAll();
     }
   //Knight stands during meeting when they have acquired a new quest
     public synchronized void stand(Knight knight) {
-    	while(!kingArthurPresent || !knight.isSeated || knight.getQuest() == null) {
+    	while(!kingArthurPresent || !knight.isSeated || 
+    			knight.getQuest() == null) {
     		try {
     			wait();
     		}catch (InterruptedException e){}
     	}
-    	System.out.format("%s stands from the Round Table.\n", knight.toString());
+    	System.out.format("%s stands from the Round Table.\n",
+    			knight.toString());
     	knight.isSeated = false;
-    	nKnightsSeated--;
+    	this.nKnightsSeated--;
         notifyAll();
     }
   //King ends a meeting when all knights are standing
@@ -124,7 +132,7 @@ public class Hall {
     		}catch (InterruptedException e){}
     	}
     	System.out.format("Meeting ends!\n");
-    	this.meetingInProgress = false;
+    	meetingInProgress = false;
     	notifyAll();
     }
 }

@@ -16,7 +16,7 @@ public class Quest {
     private static int nextId = 1;
 
     // a flag indicating whether the quest has been completed
-    boolean completed;
+    volatile boolean completed;
 
     // create a new vessel with a given identifier
     private Quest(int id) {

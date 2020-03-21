@@ -21,7 +21,7 @@ public class Producer extends Thread {
         while(!isInterrupted()) {
             try {
                 // create a new quest and send it to the agenda.
-                Quest quest = Quest.getNewQuest();
+            	Quest quest = Quest.getNewQuest();
                 agenda.addNew(quest);
 
                 // let some time pass before the next quest arrives

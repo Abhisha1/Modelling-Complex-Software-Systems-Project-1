@@ -1,6 +1,7 @@
 /***
- * A knight which handles the various tasks that a knight does, including acquiring and completing quests
- * and attending and exiting meetings with the King.
+ * A knight which handles the various tasks that a knight does,
+ * including acquiring and completing quests and attending and exiting\
+ * meetings with the King.
  * 
  * @author Abhisha Nirmalathas
  * Student Number: 913405
@@ -27,7 +28,8 @@ public class Knight extends Thread{
 
 	private Hall greatHall;
 	
-	public Knight(int id, Agenda agendaNew, Agenda agendaComplete, Hall greatHall) {
+	public Knight(int id, Agenda agendaNew, Agenda agendaComplete,
+			Hall greatHall) {
 		this.id = id;
 		this.agendaNew = agendaNew;
 		this.agendaComplete = agendaComplete;
@@ -57,7 +59,8 @@ public class Knight extends Thread{
     }
     
     
- /* Thread that controls Knights entering. mingling, taking a seat and eventually releasing and acquiring quests, 
+ /* Thread that controls Knights entering. mingling, taking a seat and
+  * eventually releasing and acquiring quests, 
   * standing and exiting the hall, to then complete the quest. */
     public void run() {
         while (!isInterrupted()) {
@@ -67,7 +70,7 @@ public class Knight extends Thread{
 	                sleep(Params.getMinglingTime());
 	                
 	                this.greatHall.sit(this);
-                	if(currentQuest != null) {
+                	if(currentQuest != null && currentQuest.completed) {
                 		this.agendaComplete.releases(this, this.greatHall);
                 		
                 	}

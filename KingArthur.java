@@ -1,6 +1,6 @@
 /***
- * The thread that controls the activities King Arthur performs, including entering,
- * exiting, commencing and concluding meetings.
+ * The thread that controls the activities King Arthur performs, 
+ * including entering, exiting, commencing and concluding meetings.
  * 
  * @author Abhisha Nirmalathas
  * Student Number: 913405
